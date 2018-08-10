@@ -18,6 +18,10 @@
 #include "SkRefCnt.h"
 #include "SkTemplates.h"
 
+#ifdef _WIN32
+#undef max
+#endif
+
 class SkRBuffer;
 class SkWBuffer;
 
