@@ -10,6 +10,8 @@
 #ifndef SkUserConfig_DEFINED
 #define SkUserConfig_DEFINED
 
+#include <stdio.h>
+
 /*  SkTypes.h, the root of the public header files, does the following trick:
 
     #include "SkPreConfig.h"
