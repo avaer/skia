@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export MLSDK='/mnt/c/Users/avaer/MagicLeap/mlsdk/v0.16.0'
+export MLSDK='/mnt/c/Users/avaer/MagicLeap/mlsdk/v0.19.0'
 if [ ! -d magicleap-js ]; then
   git clone https://github.com/webmixedreality/magicleap-js
 else
